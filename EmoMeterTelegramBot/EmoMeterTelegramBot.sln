@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.Web", "src\TelegramBot.Web\TelegramBot.Web.csproj", "{A58F572B-5228-4097-8F05-7CD97DFB5161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.Infrastructure", "src\TelgramBot.Infrastructure\TelegramBot.Infrastructure.csproj", "{C0FF508B-83D5-4DAD-84F5-AB873E8ED60F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A58F572B-5228-4097-8F05-7CD97DFB5161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58F572B-5228-4097-8F05-7CD97DFB5161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58F572B-5228-4097-8F05-7CD97DFB5161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58F572B-5228-4097-8F05-7CD97DFB5161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0FF508B-83D5-4DAD-84F5-AB873E8ED60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FF508B-83D5-4DAD-84F5-AB873E8ED60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FF508B-83D5-4DAD-84F5-AB873E8ED60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FF508B-83D5-4DAD-84F5-AB873E8ED60F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A58F572B-5228-4097-8F05-7CD97DFB5161} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{C0FF508B-83D5-4DAD-84F5-AB873E8ED60F} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86B700DE-1961-42C3-996A-17CB08E4A8AD}
+	EndGlobalSection
+EndGlobal

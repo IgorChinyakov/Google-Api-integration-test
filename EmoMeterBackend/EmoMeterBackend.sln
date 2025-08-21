@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmoMeter.Web", "src\EmoMeter.Web\EmoMeter.Web.csproj", "{96597975-C884-48C6-9804-462BDFB1AC9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{07B14920-C3B6-478D-8532-5527CB1EE277}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmoMeter.Domain", "src\EmoMeter.Domain\EmoMeter.Domain.csproj", "{C6C4BEA1-0F3A-467D-8B97-F5C63A4C7A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmoMeter.Infrastructure", "src\EmoMeter.Infrastructure\EmoMeter.Infrastructure.csproj", "{4D0E6FE3-A1D8-4876-82E1-E2786E4A70EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmoMeter.Application", "src\EmoMeter.Application\EmoMeter.Application.csproj", "{52CD9761-8B95-4FF9-BC60-D6D539E0D564}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96597975-C884-48C6-9804-462BDFB1AC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96597975-C884-48C6-9804-462BDFB1AC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96597975-C884-48C6-9804-462BDFB1AC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96597975-C884-48C6-9804-462BDFB1AC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C4BEA1-0F3A-467D-8B97-F5C63A4C7A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C4BEA1-0F3A-467D-8B97-F5C63A4C7A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C4BEA1-0F3A-467D-8B97-F5C63A4C7A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C4BEA1-0F3A-467D-8B97-F5C63A4C7A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0E6FE3-A1D8-4876-82E1-E2786E4A70EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0E6FE3-A1D8-4876-82E1-E2786E4A70EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0E6FE3-A1D8-4876-82E1-E2786E4A70EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0E6FE3-A1D8-4876-82E1-E2786E4A70EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52CD9761-8B95-4FF9-BC60-D6D539E0D564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52CD9761-8B95-4FF9-BC60-D6D539E0D564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52CD9761-8B95-4FF9-BC60-D6D539E0D564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52CD9761-8B95-4FF9-BC60-D6D539E0D564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96597975-C884-48C6-9804-462BDFB1AC9F} = {07B14920-C3B6-478D-8532-5527CB1EE277}
+		{C6C4BEA1-0F3A-467D-8B97-F5C63A4C7A17} = {07B14920-C3B6-478D-8532-5527CB1EE277}
+		{4D0E6FE3-A1D8-4876-82E1-E2786E4A70EB} = {07B14920-C3B6-478D-8532-5527CB1EE277}
+		{52CD9761-8B95-4FF9-BC60-D6D539E0D564} = {07B14920-C3B6-478D-8532-5527CB1EE277}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E07031EB-A408-4C9E-A52F-ED5874610BAA}
+	EndGlobalSection
+EndGlobal
